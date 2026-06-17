@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tameeni AI Workbench - M1-M11</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="dot"></span><div>Tameeni AI Workbench<small>Social workflow MVP</small></div></div>
+    <div class="navgroup">
+      <h5>Live agent modules</h5>
+      <div id="navLive"></div>
+    </div>
+    <div class="navgroup">
+      <h5>Mock-data modules</h5>
+      <div id="navMock"></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <div class="status" id="status"><span class="dot-bad"></span> connecting...</div>
+      <div class="muted">M1-M7 are live agents · M8-M11 use mock data</div>
+    </div>
+    <div class="content" id="content"><!-- rendered by app.js --></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
