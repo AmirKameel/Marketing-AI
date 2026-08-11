@@ -1,4 +1,4 @@
-# Tameeni AI Workbench (MVP)
+# Saudi AI Workbench (MVP)
 
 A working prototype of the social-media workflow. **Modules M1-M7 run live on GPT** through a small Node backend that keeps your OpenAI key server-side. **Modules M8-M11 are mock screens** (visually consistent, not GPT-backed in this MVP).
 
